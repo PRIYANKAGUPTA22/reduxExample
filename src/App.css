@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lavender;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#search{
+  display: inline-block;
+  width:300px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 2px 8px;
+  font-size: 13px;
+}
+#search[placeholder]{
+  line-height: 30px;
+}
+.firstLi{
+  height: 10px;
+}
+.loginContainer li{
+  display: inline-block;
+  margin: 10px;
+}
+.loginContainer li>input{
+  width: 200px;
+}
+.autocomplete-menu{
+  background-color: #e5eaed;
+  padding: 0 10px 10px;
+  z-index: 10;
+}
+.searchContainer{
+  display: inline-block;
+  height: 35px;
+}
+.autocomplete-menu-item{
+  background-color: white;
+  background: #fff;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-top: 5px;
+}
+.autocompleteCenter{
+  display: inline-block;
+}
